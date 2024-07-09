@@ -30,5 +30,7 @@
 	"max-params": ["error", 3],
 	"no-useless-return": "error",
 	"prefer-spread": "error",
-	"max-lines-per-function": ["error", 50]
+	"max-lines-per-function": ["error", 50],
+	"brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+	"object-shorthand": ["error", "always"]
 }
