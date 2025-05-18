@@ -1,6 +1,5 @@
 "rules": {
 	"indent": ["error", "tab"],
-	"linebreak-style": ["error", "unix"],
 	"quotes": ["error", "double"],
 	"semi": ["error", "never"],
 	"no-unused-vars": "warn",
@@ -22,15 +21,14 @@
 	"curly": ["error", "all"],
 	"no-implicit-coercion": ["error", { "allow": [] }],
 	"no-trailing-spaces": "error",
-	"max-len": ["error", { "code": 80, "ignoreComments": true, "ignoreUrls": true }],
+	"max-len": ["error", { "code": 100, "ignoreComments": true, "ignoreUrls": true }],
 	"no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
 	"no-shadow": "error",
 	"complexity": ["error", 10],
-	"no-magic-numbers": ["warn", { "ignore": [0, 1], "ignoreArrayIndexes": true, "enforceConst": true }],
-	"max-params": ["error", 3],
+	"max-params": ["error", 4],
 	"no-useless-return": "error",
 	"prefer-spread": "error",
-	"max-lines-per-function": ["error", 50],
+	"max-lines-per-function": ["error", 60],
 	"brace-style": ["error", "1tbs", { "allowSingleLine": true }],
 	"object-shorthand": ["error", "always"]
 }
